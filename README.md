@@ -1,0 +1,2 @@
+# invoice_maker
+俺専用請求書Excel自動作成Webアプリ ぶっちゃけ5000兆年ぶりにRailsで遊びたかっただけ
