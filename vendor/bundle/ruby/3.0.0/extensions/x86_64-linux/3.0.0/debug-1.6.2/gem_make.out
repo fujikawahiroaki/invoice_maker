@@ -1,0 +1,16 @@
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220827-598835-fm936n sitelibdir\=./.gem.20220827-598835-fm936n clean
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220827-598835-fm936n sitelibdir\=./.gem.20220827-598835-fm936n
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/debug-1.6.2/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20220827-598835-fm936n sitelibdir\=./.gem.20220827-598835-fm936n install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20220827-598835-fm936n/debug

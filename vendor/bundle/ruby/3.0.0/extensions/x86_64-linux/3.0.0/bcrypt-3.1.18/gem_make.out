@@ -1,0 +1,22 @@
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.18/ext/mri
+/usr/bin/ruby -I /usr/lib/ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.18/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20220827-602634-ep6nyq sitelibdir\=./.gem.20220827-602634-ep6nyq clean
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.18/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20220827-602634-ep6nyq sitelibdir\=./.gem.20220827-602634-ep6nyq
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+gcc  -D__SKIP_GNU     -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+wrapper.c:182:60: 警告: ‘struct crypt_data’ declared inside parameter list will not be visible outside of this definition or declaration
+  182 | char *crypt_r(const char *key, const char *setting, struct crypt_data *data)
+      |                                                            ^~~~~~~~~~
+linking shared-object bcrypt_ext.so
+
+current directory: /home/fujikawahiroaki/mycode/invoice_maker/vendor/bundle/ruby/3.0.0/gems/bcrypt-3.1.18/ext/mri
+make DESTDIR\= sitearchdir\=./.gem.20220827-602634-ep6nyq sitelibdir\=./.gem.20220827-602634-ep6nyq install
+/usr/bin/install -c -m 0755 bcrypt_ext.so ./.gem.20220827-602634-ep6nyq
